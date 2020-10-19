@@ -1,0 +1,491 @@
+
+a{
+  text-decoration: none;
+}
+.no-padding{
+  padding: 0;
+}
+.no-padding-bottom{
+  padding-bottom: 0 !important;
+}
+.gis-ms-Grid-col{
+  padding-left: 0px;
+  padding-bottom: 12px;
+}
+.col-padding-left{
+  padding-left: 40px;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-wrapper{
+    display: block;
+    height: calc(100vh - 98px) !important;
+    overflow: hidden;
+}
+.box-nav{
+  height: calc(100vh - 149px) !important;
+  overflow-y: auto;
+  flex-basis: 220px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-nav-header{
+    height: 42px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.box-nav-main{
+  padding: 10px;
+}
+.box-main-wrapper{
+  display: block;
+}
+.box-main{
+  background-color: #ecf0f5;
+  display: flex;
+  align-items: stretch;
+}
+
+.sidebar-header{
+  background-color: #367fa9;
+  color: #fff;
+  border-bottom: 0 solid transparent;
+  transition: width .3s ease-in-out;
+  display: block;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 0 15px;
+  font-weight: 300;
+  overflow: hidden;
+}
+.box-header{
+  background-color: #3c8dbc;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.collapse-button{
+  color: white;
+  font-size: 20px;
+  height: 45px;
+  line-height: 50px;
+  padding: 0px 10px;
+}
+.collapse-button:hover{
+  cursor: pointer;
+  background-color:  #367fa9;
+}
+.account-box{
+  height: 100%;
+  color: white;
+}
+.account-box:hover{
+  color: white;
+  background-color: #367fa9;
+}
+.account-box .ms-Icon{
+  color: white !important;
+}
+.box-content{
+  display: block;
+  border-left: 1px solid #ddd;
+  flex-grow: 1;
+}
+
+/* gis-breadcrumb */
+.gis-breadcrumb{
+  display: flex;
+  align-items: center;
+}
+.gis-breadcrumb ul li{
+  display: inline;
+  font-size: 14px;
+}
+.gis-breadcrumb ul li span{
+  padding: 0px 5px 0px 5px;
+}
+.gis-breadcrumb ul li .item:hover{
+  cursor: pointer;
+  color:rgb(0, 120, 212);
+}
+.gis-breadcrumb ul li .current{
+  font-weight: bold;
+}
+/* end gis-breadcrumb */
+
+.content-header{
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  border-bottom: 1px solid #c3c3c3;
+  padding: 0px 0px 0px 10px;
+  background-color: #e6e6e6;
+}
+.page-title{
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+  font-size: 18px;
+}
+.box-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background: #f0f2f5;
+  height: 50px;
+  border-top: 1px solid #ddd;
+}
+.box-footer a{
+  color: #059ef6;
+}
+.box-footer a:hover{
+  color: #3c8dbc;
+}
+.content-main{
+  height: calc(100vh - 149px) !important;
+  overflow-y: auto;
+}
+.spin-loading{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+/* .toolbar-cls{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+} */
+.dictionary-table{
+  position: relative;
+  height: calc(100vh - 141px - 49px) !important;
+  background-color: white;
+}
+.box-pagination{
+  border-top: 1px solid #ddd;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;
+}
+.pagination-function{
+  display: flex;
+}
+.number-col{
+  display: flex;
+  justify-content: flex-end;
+}
+.number-col-header span{
+  justify-content:flex-end;
+}
+.box-header-left{
+  display: inline-flex;
+  position: relative;
+}
+.header-logo{
+  color: #fff;
+  border-bottom: 0 solid transparent;
+  transition: width .3s ease-in-out;
+  display: block;
+  height: 45px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 0 15px;
+  font-weight: 300;
+  overflow: hidden;
+}
+.header-logo:hover{
+  background-color: #367fa9;
+}
+.nav-cls div{
+  background-color: #3c8dbc;
+}
+.nav-cls .nav-item{
+  padding: 0px 10px;
+  background-color: #3c8dbc;
+  color: white;
+}
+.nav-cls .nav-item:hover{
+  background-color: #367fa9;
+}
+.nav-cls .nav-selected{
+  background-color: #22aeff;
+}
+.nav-cls .nav-selected:hover{
+  background-color: #22aeff;
+}
+.is-selected{
+  background-color: #f3e5b9 !important
+}
+.ms-DetailsHeader{
+  padding: 0;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid #c3c3c3;
+}
+.ms-DetailsRow:hover{
+  background-color: #f3e5b9 !important
+}
+.nav-cls .nav-item .ms-Icon{
+  color: white;
+  background-color: transparent;
+}
+.box-toolbar{
+  display: flex;
+  align-items: center;
+}
+.box-toolbar div{
+  background-color: transparent;
+}
+.box-toolbar .ms-OverflowSet-item{
+  display: flex;
+  align-items: center;
+}
+.box-toolbar .ms-OverflowSet-overflowButton{
+  display: flex;
+  align-items: center;
+}
+.box-toolbar .ms-Button{
+  height: 35px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+}
+.box-toolbar .ms-OverflowSet-overflowButton .ms-Icon{
+  background-color: transparent;
+}
+.box-toolbar .ms-Button:hover{
+  background-color: white;
+}
+.gis-checkbox .ms-Checkbox-checkbox{
+  width: 16px;
+  height: 16px;
+}
+.gis-checkbox .ms-Checkbox-text{
+  font-size: 13px;
+  line-height: 16px;
+}
+.detail-flat-toolbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+    height: 50px;
+    align-items: center;
+    padding: 0px 10px;
+    border-bottom: 1px solid #c3c3c3;
+}
+.detail-flat-toolbar-right button{
+  margin-left: 10px;
+  padding: 0px 2px;
+  font-size: 13px;
+}
+.detail-flat-toolbar-right .ms-Button-label{
+  font-weight: normal;
+}
+.detail-flat-toolbar-right .default-btn{
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+.detail-flat-toolbar-right .default-btn:hover{
+  background-color: #fff;
+}
+.detail-flat-form{
+  height: calc(100vh - 149px);
+  overflow: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.cls-header{
+  height: 500px;
+}
+.cls-body{
+  height: 400px;
+}
+.cls-footer{
+  height: 600px;
+}
+.flat-form-sidebar-right{
+  position: sticky;
+  top: 0px;
+  width: 120px;
+  height: calc(100vh - 169px);
+  padding: 20px 30px 0px 0px;
+}
+.cls-section{
+  height: 600px;
+}
+.flat-form-sidebar-right ul li a{
+  display: block;
+  border-left: 2px solid transparent;
+  font-size: 13px;
+  padding: 4px 0px 4px 10px;
+}
+.flat-form-sidebar-right ul li a:hover{
+  cursor: pointer;
+  color: rgb(116 185 238);
+}
+.flat-form-sidebar-right ul li a.active{
+  border-left: 2px solid rgb(0, 120, 212);
+  color: rgb(116 185 238);
+}
+.flat-form-main{
+  flex-grow: 1;
+  padding: 20px 50px 0px 50px;
+  width: 1400px;
+}
+.group-title{
+  font-weight: 500;
+  font-size: 20px;
+  padding: 20px 0px 30px 0px;
+}
+.gis-label{
+  font-weight: normal;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+.gis-label::after{
+  color:red;
+}
+.gis-control .ms-TextField-fieldGroup{
+  border:  1px solid #b8b7b7;
+}
+.gis-control input{
+  font-size: 13px;
+}
+.gis-control .ms-Dropdown-title{
+  border:  1px solid #b8b7b7;
+}
+.wiget{
+  padding-bottom: 20px;
+}
+.gis-table .ms-DetailsRow-cell{
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.field-number{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-shadow: none;
+    padding: 0px 8px;
+    box-sizing: border-box;
+    border: 1px solid #b8b7b7;
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    cursor: text;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+}
+.field-number:focus{
+  outline-color: #0078D4;
+}
+.gis-commandBar .ms-CommandBar{
+  padding: 0;
+  font-size: 13px;
+  font-weight: normal;
+  height: 40px;
+  background-color: transparent;
+}
+.grid-action .ms-CommandBar{
+  padding: 0;
+  font-size: 13px;
+  font-weight: normal;
+  height: 35px;
+  background-color: transparent;
+}
+.grid-action .ms-CommandBar button{
+  background-color: transparent;
+  padding:0px 8px 0px 0px;
+  min-width: 25px;
+}
+.grid-action .ms-CommandBar button:hover{
+  cursor: pointer;
+}
+.grid-action .ms-CommandBar button .ms-Icon{
+  font-size: 14px;
+}
+
+.gis-table .ms-DetailsHeader-cell:hover{
+  /* border-right: 1px solid #c3c3c3;
+  border-left: 1px solid #c3c3c3; */
+  background-color: #d5d5d5;
+}
+.box-nav-bottom{
+  border-top: 1px solid #ddd;
+  /* height: 40px; */
+}
+.filter-operation{
+  display: flex;
+  margin-top: 10px;
+}
+.filter-operation .ms-TextField{
+  margin-left: 4px;
+}
+.filter-operation .field-number{
+  margin-left: 4px;
+}
+.pagination-function .ms-Label{
+  font-size: 13px;
+}
+.gis-control .ms-TextField-field{
+  font-size: 13px;
+}
+.cls-form-field{
+  display: block;
+  position: relative;
+}
+.position-right{
+  right: 30px !important;
+}
+.icon-warning{
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  color: red;
+  font-size: 17px;
+}
+.icon-warning:hover{
+  cursor: pointer;
+}
+.padding-r-input-25 input{
+  padding-right:25px !important ;
+}
+.cls-overlay{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ms-Spinner-label{
+  font-size: 13px;
+  color:white;
+}
